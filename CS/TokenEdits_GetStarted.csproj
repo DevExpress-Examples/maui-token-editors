@@ -1,0 +1,125 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net7.0-ios;net7.0-android33.0</TargetFrameworks>
+    	<OutputType>Exe</OutputType>
+		<UseMaui>true</UseMaui>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<SingleProject>true</SingleProject>
+		<RootNamespace>TokenEdits_GetStarted</RootNamespace>
+
+		<!-- Display name -->
+		<ApplicationTitle>TokenEdits_GetStarted</ApplicationTitle>
+
+		<!-- App Identifier -->
+		<ApplicationId>com.companyname.TokenEdits_GetStarted</ApplicationId>
+		<ApplicationIdGuid>528C18A3-0C4D-4EDC-9FFF-0DF7981D18F2</ApplicationIdGuid>
+		<!-- Versions -->
+		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+		<ApplicationVersion>1</ApplicationVersion>
+
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">14.2</SupportedOSPlatformVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">30.0</SupportedOSPlatformVersion>
+	</PropertyGroup>
+	<ItemGroup>
+		<!-- App Icon -->
+		<MauiImage Include="Resources\appicon.svg" IsAppIcon="true" ForegroundFile="Resources\splashscreen.svg" Color="#FFFFFF" />
+		<MauiImage Include="Resources\Images\dotnet_bot.svg" />
+
+		<!-- Splash Screen -->
+
+		<!-- Images -->
+
+		<!-- Custom Fonts -->
+		<MauiFont Include="Resources\Fonts\*" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Compile Remove="Photos\**" />
+	  <EmbeddedResource Remove="Photos\**" />
+	  <MauiCss Remove="Photos\**" />
+	  <MauiXaml Remove="Photos\**" />
+	  <None Remove="Photos\**" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Compile Remove="ModelObject.cs" />
+	  <Compile Remove="Order.cs" />
+	  <Compile Remove="OrderRepository.cs" />
+	  <Compile Remove="Product.cs" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Remove="GettingStarted.txt" />
+	  <None Remove="Resources\andrew_fuller.jpg" />
+	  <None Remove="Resources\anne_dodsworth.jpg" />
+	  <None Remove="Resources\black.jpg" />
+	  <None Remove="Resources\blue.jpg" />
+	  <None Remove="Resources\cake_black_24dp.svg" />
+	  <None Remove="Resources\cake_black_24dp_filled.svg" />
+	  <None Remove="Resources\edit_black_24dp.svg" />
+	  <None Remove="Resources\edit_black_24dp_filled.svg" />
+	  <None Remove="Resources\email_black_24dp.svg" />
+	  <None Remove="Resources\email_black_24dp_filled.svg" />
+	  <None Remove="Resources\face_black_24dp.svg" />
+	  <None Remove="Resources\face_black_24dp_filled.svg" />
+	  <None Remove="Resources\gray.jpg" />
+	  <None Remove="Resources\green.jpg" />
+	  <None Remove="Resources\green24.jpg" />
+	  <None Remove="Resources\Images\andrewfuller.jpg" />
+	  <None Remove="Resources\Images\annedodsworth.jpg" />
+	  <None Remove="Resources\Images\black.jpg" />
+	  <None Remove="Resources\Images\black.png" />
+	  <None Remove="Resources\Images\blue.jpg" />
+	  <None Remove="Resources\Images\blue.png" />
+	  <None Remove="Resources\Images\calendar.svg" />
+	  <None Remove="Resources\Images\clock.svg" />
+	  <None Remove="Resources\Images\cross.svg" />
+	  <None Remove="Resources\Images\dotnet_bot.svg" />
+	  <None Remove="Resources\Images\gray.jpg" />
+	  <None Remove="Resources\Images\gray.png" />
+	  <None Remove="Resources\Images\green.jpg" />
+	  <None Remove="Resources\Images\green.png" />
+	  <None Remove="Resources\Images\green24.jpg" />
+	  <None Remove="Resources\Images\janetleverling.jpg" />
+	  <None Remove="Resources\Images\lauracallahan.jpg" />
+	  <None Remove="Resources\Images\margaretpeacock.jpg" />
+	  <None Remove="Resources\Images\michaelsuyama.jpg" />
+	  <None Remove="Resources\Images\nancydavolio.jpg" />
+	  <None Remove="Resources\Images\pencil.svg" />
+	  <None Remove="Resources\Images\promotion.svg" />
+	  <None Remove="Resources\Images\robertking.jpg" />
+	  <None Remove="Resources\Images\roundcross.svg" />
+	  <None Remove="Resources\Images\stevenbuchanan.jpg" />
+	  <None Remove="Resources\Images\white.jpg" />
+	  <None Remove="Resources\Images\white.png" />
+	  <None Remove="Resources\Images\world.svg" />
+	  <None Remove="Resources\janet_leverling.jpg" />
+	  <None Remove="Resources\laura_callahan.jpg" />
+	  <None Remove="Resources\margaret_peacock.jpg" />
+	  <None Remove="Resources\michael_suyama.jpg" />
+	  <None Remove="Resources\nancy_davolio.jpg" />
+	  <None Remove="Resources\notes_black_24dp.svg" />
+	  <None Remove="Resources\notes_black_24dp_filled.svg" />
+	  <None Remove="Resources\password_black_24dp.svg" />
+	  <None Remove="Resources\password_black_24dp_filled.svg" />
+	  <None Remove="Resources\phone_black_24dp.svg" />
+	  <None Remove="Resources\phone_black_24dp_filled.svg" />
+	  <None Remove="Resources\robert_king.jpg" />
+	  <None Remove="Resources\steven_buchanan.jpg" />
+	  <None Remove="Resources\white.jpg" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+		<PackageReference Include="DevExpress.Data" Version="22.2.*" />
+		<PackageReference Include="DevExpress.Maui.Charts" Version="22.2.*" />
+		<PackageReference Include="DevExpress.Maui.CollectionView" Version="22.2.*" />
+		<PackageReference Include="DevExpress.Maui.Editors" Version="22.2.*" />
+		<PackageReference Include="DevExpress.Maui.Core" Version="22.2.*" />
+		<PackageReference Include="DevExpress.Maui.DataGrid" Version="22.2.*" />
+		<PackageReference Include="DevExpress.Maui.Scheduler" Version="22.2.*" />
+	</ItemGroup>
+	<PropertyGroup>
+		<UseInterpreter Condition="$(TargetFramework.Contains('-ios'))">True</UseInterpreter>	
+		<UseInterpreter Condition="$(TargetFramework.Contains('-android'))">False</UseInterpreter>
+		<RuntimeIdentifiers Condition="$(TargetFramework.Contains('-android'))">android-arm;android-arm64;android-x86;android-x64</RuntimeIdentifiers>
+</PropertyGroup>
+</Project>
