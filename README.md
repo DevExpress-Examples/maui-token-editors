@@ -1,12 +1,12 @@
 # DevExpress Editors for .NET MAUI - Token Editors
 
-This example shows how to add the [TokenEdit](http://docs.devexpress.devx/MAUI/DevExpress.Maui.Editors.TokenEdit?v=22.2) and [AutoCompleteTokenEdit](http://docs.devexpress.devx/MAUI/DevExpress.Maui.Editors.AutoCompleteTokenEdit?v=22.2) components to a [MAUI app](https://learn.microsoft.com/en-us/dotnet/maui/?view=net-maui-7.0), and configure their main settings.
+This example shows how to add the [TokenEdit](http://docs.devexpress.devx/MAUI/DevExpress.Maui.Editors.TokenEdit?v=22.2) and [AutoCompleteTokenEdit](http://docs.devexpress.devx/MAUI/DevExpress.Maui.Editors.AutoCompleteTokenEdit?v=22.2) components to a [MAUI app](https://learn.microsoft.com/en-us/dotnet/maui/?view=net-maui-7.0) and configure their main settings.
 
 [img]
 
-The Token Edit component allows users to select multiple items from the drop-down list. Selected items appear as chips in the edit box.
+The Token Edit component allows users to select multiple items from the drop-down list. The selected items appear as chips in the edit box.
 
-The Auto-Complete Token Edit component locates records that match the text entered by a user and displays the first item it locates within the data source. It also supports asynchronous item loading. The editor loads items as users enter text without UI freeze.
+The Auto-Complete Token Edit component locates records that match the text entered by a user and displays the first item it locates within the data source. It also supports asynchronous item loading. The editor loads items as users enter text without freezing the UI.
 
 ## Files to Review
 
