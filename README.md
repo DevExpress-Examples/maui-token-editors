@@ -1,6 +1,6 @@
 # DevExpress Editors for .NET MAUI - Token Editors
 
-This example shows how to add the [TokenEdit](http://docs.devexpress.devx/MAUI/DevExpress.Maui.Editors.TokenEdit?v=22.2) and [AutoCompleteTokenEdit](http://docs.devexpress.devx/MAUI/DevExpress.Maui.Editors.AutoCompleteTokenEdit?v=22.2) components to a [MAUI app](https://learn.microsoft.com/en-us/dotnet/maui/?view=net-maui-7.0).
+This example shows how to add the [TokenEdit](http://docs.devexpress.devx/MAUI/DevExpress.Maui.Editors.TokenEdit?v=22.2) and [AutoCompleteTokenEdit](http://docs.devexpress.devx/MAUI/DevExpress.Maui.Editors.AutoCompleteTokenEdit?v=22.2) components to a [MAUI app](https://learn.microsoft.com/en-us/dotnet/maui/?view=net-maui-7.0), and configure their main settings.
 
 [img]
 
