@@ -2,7 +2,7 @@
 
 This example shows how to add the [TokenEdit](https://docs.devexpress.com/MAUI/DevExpress.Maui.Editors.TokenEdit?v=22.2) and [AutoCompleteTokenEdit](https://docs.devexpress.com/MAUI/DevExpress.Maui.Editors.AutoCompleteTokenEdit?v=22.2) components to a [MAUI app](https://learn.microsoft.com/en-us/dotnet/maui/?view=net-maui-7.0) and configure their main settings.
 
-[img]
+![DevExpress Token Editor and Auto-Complete Token Editor for MAUI](Images/token_edit_sample.png)
 
 The Token Edit component allows users to select multiple items from the drop-down list. The selected items appear as chips in the edit box.
 
