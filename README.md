@@ -16,7 +16,7 @@ The Auto-Complete Token Edit component locates records that match the text enter
 
 ## Documentation
 
-- [Get Started](https://docs.devexpress.devx/MAUI/403794/editors/get-started?p=netframework)
+- [Editors - Get Started](https://docs.devexpress.devx/MAUI/403794/editors/get-started?p=netframework)
 - [TokenEdit](https://docs.devexpress.devx/MAUI/DevExpress.Maui.Editors.TokenEdit?v=22.2)
 - [AutoCompleteTokenEdit](http://docs.devexpress.devx/MAUI/DevExpress.Maui.Editors.AutoCompleteTokenEdit?v=22.2)
 
