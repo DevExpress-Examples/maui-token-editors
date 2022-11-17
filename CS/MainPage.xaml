@@ -11,20 +11,16 @@
             <dxe:TokenEdit x:Name="colorTokenEdit" 
                            LabelText="Colors" 
                            ItemsSource="{Binding ItemsSource}"
-                           ClearIconVisibility="Always"
                            DisplayMember="ColorName"
-                           IconMember="ColorSampleIcon" 
+                           IconMember="Icon"
                            IsTokenIconVisible="True">
                 <dxe:TokenEdit.BindingContext>
                     <local:TokenEditViewModel/>
                 </dxe:TokenEdit.BindingContext>
                 <dxe:TokenEdit.TokenAppearance>
-                    <dxe:TokenAppearance BorderColor="CornflowerBlue" 
-                             BorderThickness="2"
-                             CornerRadius="14"
-                             FontAttributes="Bold"
-                             FontFamily="Univia-Pro"
-                             FontSize="14" />
+                    <dxe:TokenAppearance CornerRadius="10"
+                                         FontAttributes="Bold"
+                                         FontFamily="Roboto" />
                 </dxe:TokenEdit.TokenAppearance>
             </dxe:TokenEdit>
             <dxe:AutoCompleteTokenEdit x:Name="brandAutoCompleteTokenEdit" LabelText="Brands">

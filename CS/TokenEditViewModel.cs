@@ -14,11 +14,13 @@
     }
 
     public class ColorInfo {
-        public string ColorName { get; set; }
-        public ImageSource ColorSampleIcon { get; set; }
+        public string ColorName { get; init; }
+        public ImageSource Icon { get; init; }
         public ColorInfo(string name, string color) {
             ColorName = name;
-            ColorSampleIcon = new FontImageSource() { Glyph = $"■", Color = Color.FromArgb(color) };
+            Icon = new FileImageSource() {
+                File = "circle_" + name.ToLower(),
+            };
         }
     }
 }
