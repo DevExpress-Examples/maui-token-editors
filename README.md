@@ -8,6 +8,12 @@ The Token Edit component allows users to select multiple items from the drop-dow
 
 The Auto-Complete Token Edit component locates records that match the text entered by a user and displays the first item it locates within the data source. It also supports asynchronous item loading. The editor loads items as users enter text without freezing the UI.
 
+## Requirements
+
+Please register the DevExpress NuGet Gallery in Visual Studio to restore the NuGet packages used in this solution. See the following topic for more information: [Get Started with DevExpress Mobile UI for .NET MAUI](https://docs.devexpress.com/MAUI/403249/get-started).
+
+You can also refer to the following YouTube video for more information on how to get started with the DevExpress .NET MAUI Controls: [Setting up a .NET MAUI Project](https://www.youtube.com/watch?v=juJvl5UicIQ).
+
 ## Files to Review
 
 * [MauiProgram.cs](./CS/MauiProgram.cs)
