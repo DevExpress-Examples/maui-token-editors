@@ -12,6 +12,7 @@ The Auto-Complete Token Edit component locates records that match the text enter
 
 * [MauiProgram.cs](./CS/MauiProgram.cs)
 * [MainPage.xaml](./CS/MainPage.xaml)
+* [MainPage.xaml.cs](./CS/MainPage.xaml.cs)
 * [TokenEditViewModel.cs](./CS/TokenEditViewModel.cs)
 
 ## Documentation
