@@ -5,21 +5,21 @@
 <!-- default badges end -->
 # DevExpress Editors for .NET MAUI - Token Editors
 
-This example shows how to add the [TokenEdit](https://docs.devexpress.com/MAUI/DevExpress.Maui.Editors.TokenEdit?v=22.2) and [AutoCompleteTokenEdit](https://docs.devexpress.com/MAUI/DevExpress.Maui.Editors.AutoCompleteTokenEdit?v=22.2) components to a [MAUI app](https://learn.microsoft.com/en-us/dotnet/maui/?view=net-maui-7.0) and configure their main settings.
+This example illustrates how you can incorporate our [TokenEdit](https://docs.devexpress.com/MAUI/DevExpress.Maui.Editors.TokenEdit?v=22.2) and [AutoCompleteTokenEdit](https://docs.devexpress.com/MAUI/DevExpress.Maui.Editors.AutoCompleteTokenEdit?v=22.2) within a [MAUI app](https://learn.microsoft.com/en-us/dotnet/maui/?view=net-maui-7.0) (and configure associated settings).
 
 
 <img src="Images/token_edit_sample_with_frame.png" alt="DevExpress Token Editor and Auto-Complete Token Editor for MAUI" height="500">
 
 
-The Token Edit component allows users to select multiple items from the drop-down list. The selected items appear as chips in the edit box.
+The Token Edit component allows users to select multiple items from its drop-down list. Selected items appear as chips within the edit box.
 
-The Auto-Complete Token Edit component locates records that match the text entered by a user and displays the first item it locates within the data source. It also supports asynchronous item loading. The editor loads items as users enter text without freezing the UI.
+The Auto-Complete Token Edit component locates records that match text entered by a user and displays the first item it locates within the data source. It also supports asynchronous item load operations. The editor loads items as users enter text without locking the UI.
 
 ## Requirements
 
-Please register the DevExpress NuGet Gallery in Visual Studio to restore the NuGet packages used in this solution. See the following topic for more information: [Get Started with DevExpress Mobile UI for .NET MAUI](https://docs.devexpress.com/MAUI/403249/get-started).
+Please register the DevExpress NuGet Gallery in Visual Studio to restore NuGet packages used in this solution. See the following topic for more information: [Get Started with DevExpress Mobile UI for .NET MAUI](https://docs.devexpress.com/MAUI/403249/get-started).
 
-You can also refer to the following YouTube video for more information on how to get started with the DevExpress .NET MAUI Controls: [Setting up a .NET MAUI Project](https://www.youtube.com/watch?v=juJvl5UicIQ).
+You can also refer to the following YouTube video to get started with the DevExpress .NET MAUI Controls: [Setting up a .NET MAUI Project](https://www.youtube.com/watch?v=juJvl5UicIQ).
 
 ## Files to Review
 
