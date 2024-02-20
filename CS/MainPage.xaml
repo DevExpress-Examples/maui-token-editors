@@ -2,12 +2,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:dxe="clr-namespace:DevExpress.Maui.Editors;assembly=DevExpress.Maui.Editors"
              xmlns:dxco="clr-namespace:DevExpress.Maui.Controls;assembly=DevExpress.Maui.Controls"
+             xmlns:dx="clr-namespace:DevExpress.Maui.Core;assembly=DevExpress.Maui.Core"
              xmlns:ios="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific;assembly=Microsoft.Maui.Controls"
              xmlns:local="clr-namespace:TokenEdits_GetStarted"
              xmlns:g="clr-namespace:Microsoft.Maui.Graphics;assembly=Microsoft.Maui"
              x:Class="TokenEdits_GetStarted.MainPage">
     <ScrollView>
-        <VerticalStackLayout Spacing="25" Padding="30,0" VerticalOptions="Start">
+        <dx:DXStackLayout Orientation="Vertical" ItemSpacing="25" Padding="30,0" VerticalOptions="Start">
             <dxe:TokenEdit x:Name="colorTokenEdit" 
                            LabelText="Colors" 
                            ItemsSource="{Binding ItemsSource}"
@@ -28,6 +29,6 @@
                     <dxe:AsyncItemsSourceProvider ItemsRequested="AsyncItemsSourceProvider_ItemsRequested" />
                 </dxe:AutoCompleteTokenEdit.ItemsSourceProvider>
             </dxe:AutoCompleteTokenEdit>
-        </VerticalStackLayout>
+        </dx:DXStackLayout>
     </ScrollView>
 </ContentPage>
