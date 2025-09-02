@@ -6,7 +6,7 @@
 <!-- default badges end -->
 # DevExpress Editors for .NET MAUI - Token Editors 
 
-This example illustrates how you can incorporate our [TokenEdit](https://docs.devexpress.com/MAUI/DevExpress.Maui.Editors.TokenEdit?v=22.2) and [AutoCompleteTokenEdit](https://docs.devexpress.com/MAUI/DevExpress.Maui.Editors.AutoCompleteTokenEdit?v=22.2) within a [MAUI app](https://learn.microsoft.com/en-us/dotnet/maui/?view=net-maui-7.0) (and configure associated settings).
+This example illustrates how you can incorporate our [TokenEdit](https://docs.devexpress.com/MAUI/DevExpress.Maui.Editors.TokenEdit) and [AutoCompleteTokenEdit](https://docs.devexpress.com/MAUI/DevExpress.Maui.Editors.AutoCompleteTokenEdit) within a [MAUI app](https://learn.microsoft.com/en-us/dotnet/maui/?view=net-maui-7.0) (and configure associated settings).
 
 
 <img src="Images/token_edit_sample_with_frame.png" alt="DevExpress Token Editor and Auto-Complete Token Editor for MAUI" height="500">
@@ -32,8 +32,8 @@ You can also refer to the following YouTube video to get started with the DevExp
 ## Documentation
 
 - [Editors - Get Started](https://docs.devexpress.com/MAUI/403794/editors/get-started?p=netframework)
-- [TokenEdit](https://docs.devexpress.com/MAUI/DevExpress.Maui.Editors.TokenEdit?v=22.2)
-- [AutoCompleteTokenEdit](https://docs.devexpress.com/MAUI/DevExpress.Maui.Editors.AutoCompleteTokenEdit?v=22.2)
+- [TokenEdit](https://docs.devexpress.com/MAUI/DevExpress.Maui.Editors.TokenEdit)
+- [AutoCompleteTokenEdit](https://docs.devexpress.com/MAUI/DevExpress.Maui.Editors.AutoCompleteTokenEdit)
 
 ## More Examples
 
